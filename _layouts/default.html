@@ -8,6 +8,14 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@6.2/distr/fira_code.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
 
     <meta name="theme-color" content="#000000">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">
@@ -18,8 +26,23 @@
     <div id="bar"></div>
     <div class="wrapper-container">
       <div class="wrapper-masthead">
+        <header class="masthead">
+            
+          <a href="{{ site.baseurl }}/" class="site-name">{{ site.name }}</a>
+        
+      
+        <nav class="header-right">
+          <a href="{{ site.baseurl }}/">Home</a>
+          <a href="{{ site.baseurl }}/getting-started">Getting Started</a>
+          <a href="{{ site.baseurl }}/search">Search</a>
+          <a href="{{ site.baseurl }}/about">About</a>
+          <a href="{{ site.baseurl }}/archive">Archive</a>
+        </nav>
+        <img src="/images/pomg_1.png" alt="" class="header-img-1">
+        <img src="/images/pomg_2.png" alt="" class="header-img-2">
+      </header>
         <div class="container">
-          <header class="masthead clearfix">
+          <!-- <header class="masthead clearfix">
             <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a>
 
             <div class="site-info">
@@ -34,7 +57,9 @@
               <a href="{{ site.baseurl }}/about">About</a>
               <a href="{{ site.baseurl }}/archive">Archive</a>
             </nav>
-          </header>
+          </header> -->
+          
+          
         </div>
       </div>
 
