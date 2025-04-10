@@ -38,7 +38,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  text-align:justify;
+ 
   margin-right:auto;
   margin-left:auto;
   
@@ -376,12 +376,12 @@ nav {
   font-size: 20px;
   font-weight: 300;
   
-  // @include mobile {
-  //   float: none;
-  //   margin-top: 9px;
-  //   display: block;
-  //   font-size: 16px;
-  // }
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
 
   a {
     margin-left: 20px;
