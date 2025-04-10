@@ -34,14 +34,14 @@ body {
 }
 
 .container {
-  width: 90%;
+  
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   text-align:justify;
   margin-right:auto;
   margin-left:auto;
-  width:700px;
+  
   text-align:center;
   
 }
@@ -376,12 +376,12 @@ nav {
   font-size: 20px;
   font-weight: 300;
   
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
+  // @include mobile {
+  //   float: none;
+  //   margin-top: 9px;
+  //   display: block;
+  //   font-size: 16px;
+  // }
 
   a {
     margin-left: 20px;
@@ -445,10 +445,10 @@ nav {
   }
 }
 
-.wrapper-container {
-  min-height: 100%;
-  position: relative;
-}
+// .wrapper-container {
+//   min-height: 100%;
+//   position: relative;
+// }
 
 .wrapper-main {
   padding-bottom: 134px;
